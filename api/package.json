@@ -6,7 +6,7 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js",
-    "test": "NODE_ENV=test vitest run --coverage"
+    "test": "NODE_ENV=test vitest run"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
